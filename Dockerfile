@@ -6,8 +6,6 @@ RUN apt-get update \
 	&& apt-get remove openjdk* \
 	&& apt-get install -y \
 		openjdk-8-jdk \
-#		software-properties-common \
-#		python-software-properties \
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV JAVA_HOME=/usr/local/jdk1.8.0_141
