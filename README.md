@@ -1,2 +1,2 @@
 
-Docker image integrated ubuntu 18.04 and openjdk 8 
+Docker image integrated ubuntu 18.04 and oraclejdk 8 
